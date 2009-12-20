@@ -1,0 +1,4 @@
+*.tga usr/share/images/grub/
+*.png usr/share/images/grub/
+*.jpg usr/share/images/grub/
+05_sabily_them etc/grub.d/

@@ -1,0 +1,16 @@
+Source: sabily-grub-artwork
+Section: misc
+Priority: optional
+Maintainer: Sabily Team <sabily.team@lists.launchpad.net>
+XSBC-Original-Maintainer: أحمد المحمودي (Ahmed El-Mahmoudy) <aelmahmoudy@users.sourceforge.net>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.8.3
+Homepage: http://www.sabily.org
+Vcs-Bzr: https://code.launchpad.net/~sabily.team/sabily-artwork/sabily-grub-artwork
+Vcs-Browser: http://bazaar.launchpad.net/~sabily.team/sabily-artwork/sabily-grub-artwork
+
+Package: sabily-grub-artwork
+Architecture: all
+Depends: ${misc:Depends}
+Description: Sabily artwork for GRUB2
+ Sabily artwork used by GRUB2 bootloader.
