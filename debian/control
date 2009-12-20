@@ -6,8 +6,8 @@ XSBC-Original-Maintainer: أحمد المحمودي (Ahmed El-Mahmoudy) <aelmahm
 Build-Depends: debhelper (>= 7)
 Standards-Version: 3.8.3
 Homepage: http://www.sabily.org
-Vcs-Bzr: https://code.launchpad.net/~sabily.team/sabily-artwork/sabily-grub-artwork
-Vcs-Browser: http://bazaar.launchpad.net/~sabily.team/sabily-artwork/sabily-grub-artwork
+Vcs-Bzr: https://code.launchpad.net/~sabily-designers-team/sabily-artwork/sabily-grub-artwork
+Vcs-Browser: http://bazaar.launchpad.net/~sabily-designers-team/sabily-artwork/sabily-grub-artwork
 
 Package: sabily-grub-artwork
 Architecture: all
