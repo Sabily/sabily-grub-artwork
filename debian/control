@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Sabily Team <sabily.team@lists.launchpad.net>
 XSBC-Original-Maintainer: أحمد المحمودي (Ahmed El-Mahmoudy) <aelmahmoudy@users.sourceforge.net>
 Build-Depends: debhelper (>= 7)
-Standards-Version: 3.8.3
+Standards-Version: 3.8.4
 Homepage: http://www.sabily.org
 Vcs-Bzr: https://code.launchpad.net/~sabily-designers-team/sabily-artwork/sabily-grub-artwork
 Vcs-Browser: http://bazaar.launchpad.net/~sabily-designers-team/sabily-artwork/sabily-grub-artwork
