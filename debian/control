@@ -13,4 +13,8 @@ Package: sabily-grub-artwork
 Architecture: all
 Depends: ${misc:Depends}
 Description: Sabily artwork for GRUB2
- Sabily artwork used by GRUB2 bootloader.
+ Sabily is a Linux distribution based on Ubuntu. It includes Islamic software
+ (prayer times tool, Quran study tool, Hijri calendar etc.) and has a custom
+ design.
+ .
+ This package contains Sabily artwork used by GRUB2 bootloader.
