@@ -13,7 +13,7 @@ EOF
 # check for usable backgrounds
 use_bg=false
 if [ "$GRUB_TERMINAL_OUTPUT" = "gfxterm" ] ; then
-  for i in /usr/share/images/grub/sabily_gaza.tga ; do
+  for i in /usr/share/images/grub/sabily-manarat.png ; do
     if is_path_readable_by_grub $i ; then 
       bg=$i
       case ${bg} in
