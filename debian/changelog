@@ -1,6 +1,5 @@
-sabily-grub-artwork (1.0~ppa2) lucid; urgency=low
+sabily-grub-artwork (1.0) maverick; urgency=low
 
-  * Initial release (LP: #nnnn).
+  * Initial release (LP: #650452).
 
- -- أحمد المحمودي (Ahmed El-Mahmoudy) <aelmahmoudy@users.sourceforge.net>  Thu, 20 Dec 2009 21:35:50 +0200
-
+ -- أحمد المحمودي (Ahmed El-Mahmoudy) <aelmahmoudy@sabily.org>  Tue, 28 Sep 2010 19:53:08 +0300
