@@ -1,3 +1,9 @@
+sabily-grub-artwork (1.1) maverick; urgency=low
+
+  * Added debian/postrm (LP: #651087)
+
+ -- أحمد المحمودي (Ahmed El-Mahmoudy) <aelmahmoudy@sabily.org>  Wed, 29 Sep 2010 15:51:22 +0300
+
 sabily-grub-artwork (1.0) maverick; urgency=low
 
   * Initial release (LP: #650452).

@@ -1,0 +1,22 @@
+#!/bin/sh
+# postrm script for sabily-grub-artwork
+
+set -e
+
+case "$1" in
+	purge|remove)
+    update-grub
+	;;
+
+    upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
+	;;
+
+    *)
+	echo "$0 called with unknown argument \`$1'" 1>&2
+	exit 1
+	;;
+esac
+
+#DEBHELPER#
+
+exit 0
