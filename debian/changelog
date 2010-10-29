@@ -1,3 +1,10 @@
+sabily-grub-artwork (1.2~ppa1) maverick; urgency=low
+
+  * New background for Al-Quds release.
+  * Renamed background to sabily.png
+
+ -- أحمد المحمودي (Ahmed El-Mahmoudy) <aelmahmoudy@sabily.org>  Fri, 29 Oct 2010 09:47:11 +0200
+
 sabily-grub-artwork (1.1) maverick; urgency=low
 
   * Added debian/postrm (LP: #651087)
