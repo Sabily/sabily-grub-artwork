@@ -12,6 +12,7 @@ Vcs-Browser: http://bazaar.launchpad.net/~sabily-designers-team/sabily-artwork/s
 Package: sabily-grub-artwork
 Architecture: all
 Depends: ${misc:Depends}
+Conflicts: desktop-base
 Description: Sabily artwork for GRUB2
  Sabily is a Linux distribution based on Ubuntu. It includes Islamic software
  (prayer times tool, Quran study tool, Hijri calendar etc.) and has a custom

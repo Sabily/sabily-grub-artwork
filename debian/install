@@ -1,2 +1,2 @@
 *.png usr/share/images/grub/
-05_sabily_theme etc/grub.d/
+grub_background.sh usr/share/desktop-base/
