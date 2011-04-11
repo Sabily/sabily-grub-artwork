@@ -1,0 +1,44 @@
+#!/bin/sh
+
+set -e
+
+# Taken from http://wiki.debian.org/DpkgConffileHandling
+# Remove a no-longer used conffile
+rm_conffile() {
+    local PKGNAME="sabily-grub-artwork"
+    local CONFFILE="$1"
+
+    [ -e "$CONFFILE" ] || return 0
+
+    local md5sum="$(md5sum $CONFFILE | sed -e 's/ .*//')"
+    local old_md5sum="$(dpkg-query -W -f='${Conffiles}' $PKGNAME | \
+            sed -n -e "\' $CONFFILE ' { s/ obsolete$//; s/.* //; p }")"
+    if [ "$md5sum" != "$old_md5sum" ]; then
+	echo "Obsolete conffile $CONFFILE has been modified by you."
+	echo "Saving as $CONFFILE.dpkg-bak ..."
+	mv -f "$CONFFILE" "$CONFFILE".dpkg-bak
+    else
+	echo "Removing obsolete conffile $CONFFILE ..."
+	rm -f "$CONFFILE"
+    fi
+}
+
+case "$1" in
+    install|upgrade)
+    if dpkg --compare-versions "$2" lt "1.2~ppa3" ; then
+      rm_conffile "/etc/grub.d/05_sabily_theme"
+    fi
+    ;;
+
+    abort-upgrade)
+    ;;
+
+    *)
+        echo "preinst called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+#DEBHELPER#
+
+exit 0

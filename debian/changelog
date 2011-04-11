@@ -1,12 +1,13 @@
-sabily-grub-artwork (1.2~ppa3) natty; urgency=low
+sabily-grub-artwork (1.2~ppa4) natty; urgency=low
 
   * New background for Badr release.
   * Remove /etc/grub.d/05_sabily_theme, and install
     /usr/share/desktop-base/grub_background.sh instead, which is to be
     sourced by /etc/grub.d/05_debian_theme
   * debian/control: Added Conflicts with desktop-base
+  * debian/preinst: Safely remove /etc/grub.d/05_sabily_theme
 
- -- أحمد المحمودي (Ahmed El-Mahmoudy) <aelmahmoudy@sabily.org>  Sun, 10 Apr 2011 17:49:43 +0200
+ -- أحمد المحمودي (Ahmed El-Mahmoudy) <aelmahmoudy@sabily.org>  Mon, 11 Apr 2011 17:19:52 +0200
 
 sabily-grub-artwork (1.2~ppa1) maverick; urgency=low
 
