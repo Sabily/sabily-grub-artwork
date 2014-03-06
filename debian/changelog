@@ -1,3 +1,16 @@
+sabily-grub-artwork (1.2.1~ppa2) trusty; urgency=medium
+
+  * Bumped compat level to 9
+  * debian/control:
+    + Bumped Standards-Version to 3.9.5
+    + Update my email address.
+    + Remove desktop-base from Conflicts, the Ubuntu version of desktop-base
+      has grub_background.sh removed.
+  * debian/gbp.conf: Added git-buildpackage conf file.
+  * debian/copyright: updated copyright format & info.
+
+ -- أحمد المحمودي (Ahmed El-Mahmoudy) <aelmahmoudy@sabily.org>  Thu, 06 Mar 2014 07:49:59 +0200
+
 sabily-grub-artwork (1.2.1~ppa1) oneiric; urgency=low
 
   * sabily.png: New background for Uhud release.
